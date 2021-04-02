@@ -2,7 +2,7 @@
 body {font-family: 'Roboto', sans-serif;}
 .row {margin: 0;}
 .container {padding: 70px 0;}
-p, li {color: #444; font-size: 16px;}
+p, li {color: #444; font-size: 14px;}
 /*==========BARRA DE NAVEGAÇÃO==========*/
 header, .navbar {background-color: #353d41;}
 #nav-container {padding-top: 0; padding-bottom: 0;}
@@ -31,3 +31,9 @@ left: 42.5%;}
 #about-list {list-style: none; padding-left: 0;}
 #about-list li {line-height: 30px; font-size: 14px;}
 #about-list i {color: #65daf9; margin-right: 15px;}
+/*==========ESPECIALIDADES==========*/
+.service-box {text-align: center; margin-bottom: 50px;}
+.service-box i, .service-box h4 {transition: .5s;}
+.service-box i {font-size: 36px; margin-bottom: 20px; color: #444;}
+.service-box h4 {font-size: 24px; margin-bottom: 20px;}
+.service-box:hover > i, .service-box:hover > h4 {color: #65daf9;} 
