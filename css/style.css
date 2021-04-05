@@ -41,3 +41,5 @@ left: 42.5%;}
 .circle-box div {padding: 0 40px;}
 .progressbar-text {font-weight: bold; font-size: 32px;}
 #data-area p {color: #fff; text-align: center; font-size: 26px; margin-top: 20px;}
+/*==========CARDS (TIME)==========*/
+.card-body {text-align: center;}
