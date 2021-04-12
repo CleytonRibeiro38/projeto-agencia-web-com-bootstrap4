@@ -101,6 +101,34 @@ border-radius: 0;}
 #copy-area .container p {margin-bottom: 0;}
 #copy-area .container a {font-weight: bold; color: #444;  }
 #copy-area .container a:hover {text-decoration: none; color: #3ec1d5;}
+/*==========RESPONSIVO (MEDIA QUERIES)==========*/
+@media(max-width: 768px){
+    /*GERAL*/
+    .container {padding: 20px 0;}
+    /*CAROUSEL*/
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {height: auto;}
+    #mainSlider .carousel-caption h2 {font-size: 28px;}
+    #mainSlider .carousel-caption p {font-size: 18px; margin-bottom: 40px;}
+    .carousel-caption {left: 10%; right: 10%;}
+    /*SOBRE A EMPRESA*/
+    #about-area img {margin-top: 100px;}
+    /*DADOS DA EMPRESA (PROGRESS BAR E PARALLAX)*/
+    .circle-box div {padding: 10px 10px 0;}
+    #data-area p {font-size: 16px;}
+    /*CARDS (TIME)*/
+    .card-title {font-size: 14px;}
+    .card-text {font-size: 12px;}
+    /*TRABALHE CONOSCO (PARALLAX)*/
+    #apply-area .apply-box {padding: 50px 25px;}
+    /*NEWSLETTER*/
+    #news-area p {width: 80%; margin-left: auto; margin-right: auto;}
+    #email-input {width: 70%;}
+    #call-area {margin-top: 30px;}
+    #call-area .container {padding: 30px;}
+    #call-area p, #call-area .call-btn {font-size: 16px;}
+    /*MENSAGEM*/
+    #message-area {margin-top: 0;}
+}
 
 
 
