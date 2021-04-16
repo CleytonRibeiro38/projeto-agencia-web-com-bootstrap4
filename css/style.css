@@ -102,7 +102,7 @@ border-radius: 0;}
 #copy-area .container a {font-weight: bold; color: #444;  }
 #copy-area .container a:hover {text-decoration: none; color: #3ec1d5;}
 /*==========RESPONSIVO (MEDIA QUERIES)==========*/
-@media(max-width: 768px){
+@media(max-width: 1200px){
     /*GERAL*/
     .container {padding: 20px 0;}
     /*CAROUSEL*/
@@ -111,7 +111,7 @@ border-radius: 0;}
     #mainSlider .carousel-caption p {font-size: 18px; margin-bottom: 40px;}
     .carousel-caption {left: 10%; right: 10%;}
     /*SOBRE A EMPRESA*/
-    #about-area img {margin-top: 100px;}
+    #about-area img {vertical-align: baseline;}
     /*DADOS DA EMPRESA (PROGRESS BAR E PARALLAX)*/
     .circle-box div {padding: 10px 10px 0;}
     #data-area p {font-size: 16px;}
@@ -129,7 +129,7 @@ border-radius: 0;}
     /*MENSAGEM*/
     #message-area {margin-top: 0;}
 }
-@media(max-width: 425px){
+@media(max-width: 767px){
     /*CAROUSEL*/
     #mainSlider {margin-top: 90px;}
     #mainSlider .carousel-caption {top: 5%;}
